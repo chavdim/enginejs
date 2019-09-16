@@ -1,0 +1,13 @@
+const images = [];
+
+function preloadImages() {
+    let len = arguments.length;
+    for (let i = 0; i < len; i++) {
+        images[i] = new Image();
+        images[i].src = preloadImages.arguments[i];
+        images[i].onLoad = function () {
+            len -= 1;
+            console.log("image loaded," + len + " more left");
+        };
+    }
+}

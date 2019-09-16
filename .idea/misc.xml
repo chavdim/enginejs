@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="FLOW" />
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/js/._audio.js" />
+    <file url="file://$PROJECT_DIR$/js/._creators.js" />
+    <file url="file://$PROJECT_DIR$/js/._game.js" />
+    <file url="file://$PROJECT_DIR$/js/._images.js" />
+    <file url="file://$PROJECT_DIR$/js/._inputHandler.js" />
+    <file url="file://$PROJECT_DIR$/js/._jquery.min.js" />
+    <file url="file://$PROJECT_DIR$/js/._master.js" />
+    <file url="file://$PROJECT_DIR$/js/._objects.js" />
+    <file url="file://$PROJECT_DIR$/js/._util.js" />
+    <file url="file://$PROJECT_DIR$/js/._visualObjects.js" />
+  </component>
+</project>
