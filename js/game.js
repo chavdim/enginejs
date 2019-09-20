@@ -43,7 +43,7 @@ function Game(stage, attributes, objects) {
         //GAME SPECIFIC////////////////////////////////////////////////////////////////////////////////////////
 
         //COLLISION EVENTS
-        /*CollisionHandler ("playerToEnemy",this.gameObjects["players"],this.gameObjects["enemies"],
+        /*CollisionHandler ("playerToEnemy",this.dynamicObjects["players"],this.dynamicObjects["enemies"],
             this,"collidedWithEnemy",rectCollision);
         */
         //EventTrigger (1,">",0,this.func)

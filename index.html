@@ -8,18 +8,38 @@
 	<!-- SCRIPTS & STYLESHEET-->
 	<script src='./js/util.js' type="text/javascript"></script>
 	<script type='text/javascript' src='js/libs/jquery.min.js' charset="utf-8"></script>
-	<script src='js/util/visualObjects.js' type="text/javascript"></script>
-	<script src='js/util/audio.js' type="text/javascript"></script>
-	<script src='js/util/images.js' type="text/javascript"></script>
+	<script src='js/util/misc/visualObjects.js' type="text/javascript"></script>
+	<script src='js/util/misc/audio.js' type="text/javascript"></script>
+	<script src='js/util/misc/images.js' type="text/javascript"></script>
 	
-	<script src='js/util/inputHandler.js' type="text/javascript"></script>
+	<script src='js/util/misc/inputHandler.js' type="text/javascript"></script>
 	<script src='./js/objects.js' type="text/javascript"></script>
-	<script src='./js/creators.js' type="text/javascript"></script>
+	<script src='js/creators/creators.js' type="text/javascript"></script>
 	<script src='./js/game.js' type="text/javascript"></script>
 	<script src='./js/master.js' type="text/javascript"></script>
 	<!--<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<!-- END SCRIPTS & STYLESHEET -->
+    <script src='js/creators/creators.js' type="text/javascript"></script>
+
+    <!-- LOOPS CREATORS & LOOP COLLECTION -->
+	<!--	utils	-->
+	<script src='js/util/dynamics/Acceleration.js' type="text/javascript"></script>
+	<script src='js/util/collections/Collection.js' type="text/javascript"></script>
+
+	<!--	objects	-->
+	<script src='js/objects/common/Bullet.js' type="text/javascript"></script>
+	<script src='js/objects/player/PlayerShip.js' type="text/javascript"></script>
+
+
+	<script src='js/loops/StageSelect/StageSelectCreators.js' type="text/javascript"></script>
+    <script src='js/loops/StageSelect/StageSelectLoop.js' type="text/javascript"></script>
+
+    <script src='js/loops/Stage/StageCreators.js' type="text/javascript"></script>
+    <script src='js/loops/Stage/StageLoop.js' type="text/javascript"></script>
+
+    <script src='js/loops/LoopCollection.js' type="text/javascript"></script>
+
 </head>
 <body id = 'gamebody'  >
 	<script>
@@ -39,7 +59,6 @@
     <canvas style='position:absolute;border: 1px solid black; -webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; user-select: none; ' id = 'gamecanvas' width="400" height="650" ></canvas>
     <canvas style='position:absolute;border: 1px solid black; -webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; user-select: none; ' id = 'gamecanvas2' width="400" height="650" ></canvas>
 
-	
 	
 	<!-- MENU -->
 	

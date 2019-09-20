@@ -12,7 +12,7 @@ function Entity (x,y,size,speed,imgSrc) {
         this.animatedImage=new AnimatedImage("./images/enemy.png",5,3,0,0,0,0);
     }
     this.update=function  () {
-        this.rect.set(this.x,this.y);
+        this.rect.setTo(this.x,this.y);
     };
     this.draw=function  (ctx) {
         //ctx.fillStyle="black";
