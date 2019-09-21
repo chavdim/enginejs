@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b070a918-6b29-4e34-a0e2-3f7e6251b7ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util/events/DeathEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util/random/RandomUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/objects/common/Bullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/common/Bullet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/collections/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/collections/Collection.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,15 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/util/collections/Collection.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -55,28 +32,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util.js">
+        <entry file="file://$PROJECT_DIR$/js/master.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/master.js">
+        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="380">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -161,7 +150,6 @@
         <option value="$PROJECT_DIR$/js/objects/terrain/SideScrollTerrain.js" />
         <option value="$PROJECT_DIR$/js/util/dynamics/Acceleration" />
         <option value="$PROJECT_DIR$/js/loops/LoopCollection.js" />
-        <option value="$PROJECT_DIR$/js/master.js" />
         <option value="$PROJECT_DIR$/js/objects/PlayerShip.js" />
         <option value="$PROJECT_DIR$/js/objects/player/Bullet.js" />
         <option value="$PROJECT_DIR$/main.html" />
@@ -179,7 +167,6 @@
         <option value="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" />
         <option value="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" />
         <option value="$PROJECT_DIR$/js/util/events/DeathEvent.js" />
-        <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/js/objects/player/PlayerShip.js" />
         <option value="$PROJECT_DIR$/js/util/collections/Collection.js" />
@@ -187,6 +174,9 @@
         <option value="$PROJECT_DIR$/js/util/random/RandomUtils.js" />
         <option value="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" />
         <option value="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" />
+        <option value="$PROJECT_DIR$/js/master.js" />
+        <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -380,12 +370,12 @@
       <updated>1566145575997</updated>
       <workItem from="1566145577166" duration="13624000" />
       <workItem from="1567028458601" duration="699000" />
-      <workItem from="1568595457550" duration="50916000" />
+      <workItem from="1568595457550" duration="52246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65239000" />
+    <option name="totallyTimeSpent" value="66569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="328" y="9" width="1585" height="1040" extended-state="0" />
@@ -556,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -604,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/util/random/RandomUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -625,10 +601,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="380">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

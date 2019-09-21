@@ -15,6 +15,11 @@ function Bullet(speed, x, y) {
 
 
     this.update = function (input) {
+        // TOOD how to delare delete of screen
+        if (this.y < -this.size) {
+            this.dead = true
+        }
+
         // TODO apply here?
         // this.acceleration.applyYAcleration(this.speed/100);
         this.acceleration.moveParent();
