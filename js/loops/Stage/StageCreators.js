@@ -12,7 +12,7 @@ function StageCreator() {
                 function () {
                     // TODO get width from better place. config?
                     return new EnemyShip(
-                        new RandomRangeGenerator(0,master.canvas.width ,1),
+                        new RandomRangeGenerator(0, master.canvas.width, 1),
                         -50, -40, 6, "")
                 },
                 function () {
@@ -23,7 +23,18 @@ function StageCreator() {
     this.visualObj = [];
     this.dynamicObj = {
         "ships": [
-            new PlayerShip(100, 590, 30, 1.0, "")
+            new PlayerShip(100, 590, 30, 1.0, "",
+                // button key : [keydown, keyup]
+                new InputMapping({
+                        'a': ['moveLeft','decelerate'],
+                        'd': ['moveRight','decelerate'],
+                        ' ': ['shoot', null]
+                    },
+                    function () {
+                        return master.loopCollection["loops"][1].dynamicObjects["ships"][0] // TODO fix dangerous indexing
+                    }
+                )
+            )
         ],
         "enemyShips": []
     };
@@ -34,8 +45,8 @@ function StageCreator() {
             },
             function () {
                 return master.loopCollection["loops"][1].dynamicObjects["ships"][0]
-                    .collections[0].objects
-            },                           // TODO fix dangerous indexing
+                    .collections[0].objects  // TODO fix dangerous indexing
+            },
             function () {
                 return master.loopCollection["loops"][1]
             }, // TODO better way to indicate parent

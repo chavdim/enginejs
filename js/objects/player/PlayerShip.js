@@ -1,4 +1,4 @@
-function PlayerShip(x, y, size, speed, imgSrc) {
+function PlayerShip(x, y, size, speed, imgSrc, inputMap) {
     this.x = x;
     this.y = y;
     this.size = size;
@@ -11,7 +11,7 @@ function PlayerShip(x, y, size, speed, imgSrc) {
     this.acceleration = new Acceleration(this, 8, 8); // TODO how to define object specific objects (util objects). Creator for the objects?
     this.collections = [new Collection(parent = this, id = "bullets", attributes = {})];
     this.cooldown = new ActionWithCooldown(6, this, 'doShoot');
-    // this.inputMap =  ???
+    this.inputMap =  inputMap;
 
 
     //image
@@ -19,9 +19,8 @@ function PlayerShip(x, y, size, speed, imgSrc) {
         this.animatedImage = new AnimatedImage("./images/enemy.png", 5, 3, 0, 0, 0, 0);
     }
     this.update = function (input) {
-        this.processInputs(input);
+        this.inputMap.update(input);
         loopFor(this.collections, 'update', input);
-
         this.cooldown.update();
         this.acceleration.moveParent();
         this.rect.setTo(this.x, this.y);
@@ -40,34 +39,9 @@ function PlayerShip(x, y, size, speed, imgSrc) {
     this.decelerate = function () {
         this.acceleration.decelerateAllAxis(this.speed)
     };
-    //
-    // TODO input mapping object ? (input to method)
-    this.processInputs = function (input) {
-        const keyStates = input[2].keyStates; // TODO call like input.getKeyEvent
-        if (keyStates['a'] === 'pressed') {
-            this.moveLeft()
-        }
-        if (keyStates['d'] === 'pressed') {
-            this.moveRight()
-        }
-        if (keyStates[' '] === 'pressed') {
-            this.shoot()
-        }
-
-        // if (keyStates['w'] === 'pressed') {
-        //     this.moveUp()
-        // }
-        // if (keyStates['s'] === 'pressed') {
-        //     this.moveDown()
-        // }
-        if (keyStates['a'] !== 'pressed' &&
-            keyStates['d'] !== 'pressed') {
-            this.decelerate()
-        }
-
-    };
     // custom object methods
     this.moveLeft = function () {
+        console.log(this)
         this.acceleration.applyXAccleration(-this.speed)
     };
     this.moveRight = function () {

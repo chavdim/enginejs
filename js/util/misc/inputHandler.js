@@ -47,7 +47,7 @@ var inputHandler = {
             inputHandler.processed = 0;
         }
         function onKeyUp(keyEvent) {
-            inputHandler.keyStates[keyEvent.key] = '';
+            inputHandler.keyStates[keyEvent.key] = 'unpressed';
             inputHandler.keyInputObj = keyEvent;
             inputHandler.processed = 0;
         }
