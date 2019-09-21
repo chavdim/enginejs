@@ -6,6 +6,9 @@ function StageLoop() {
     this.currentMenuObjects = getStageMenuObjects();
     this.gameAttributes = {}; //TODO
     this.dynamicObjects = {};
+    this.generators = [];
+    this.collisionHandlers = [];
+
     //TIMERS
     this.timers = [];
     //this.timers.push(new TimedEvent (time, countDownBy, parent, onZero) );
@@ -20,21 +23,27 @@ function StageLoop() {
     };
 
     this.loadBaseData = function () {
+        this.generators = this.creator.getGenerators();
+        this.collisionHandlers = this.creator.getCollisionHandlers();
+
         this.currentVisualObjects = this.creator.getVisualObjects();
-        this.currentMenuObjects = this.creator.getMenuObjects();
         // this.gameAttributes = attributes;
         this.dynamicObjects = this.creator.getDynamicObjects();
+        this.currentMenuObjects = this.creator.getMenuObjects();
     };
 
     this.update = function (input, param) {
         //UPDATE OBJECTS
+        loopFor(this.generators, 'update');
+        loopFor(this.collisionHandlers, 'update');
+
         loopFor(this.currentMenuObjects, 'update', input);
         //UPDATE OBJECTS IN DICT
         for (let key in this.dynamicObjects) {
             for (let i = this.dynamicObjects[key].length - 1; i >= 0; i--) {
                 this.dynamicObjects[key][i].update(input);
                 //REMOVE IF DEAD
-                if (this.dynamicObjects[key][i].dead === 1) {
+                if (this.dynamicObjects[key][i].dead === true) {
                     this.dynamicObjects[key].splice(i, 1);
                 }
             }
@@ -51,11 +60,11 @@ function StageLoop() {
     };
     this.draw = function (ctx) {
         loopFor(this.currentVisualObjects, 'draw', ctx);
-        loopFor(this.currentMenuObjects, 'draw', ctx);
         //DRAW OBJECTS IN DICT
         for (let key in this.dynamicObjects) {
             loopFor(this.dynamicObjects[key], 'draw', ctx);
         }
+        loopFor(this.currentMenuObjects, 'draw', ctx);
     };
 
 }

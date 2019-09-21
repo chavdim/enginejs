@@ -5,7 +5,14 @@ function Collection(parent, id, attributes) {
 
     // TODO would be nice to extend Updateable and Drawable. (inherit update and draw methods)
     this.update = function (input) {
-        loopFor(this.objects, 'update', input);
+
+        for (let i = this.objects.length - 1; i >= 0; i--) {
+            this.objects[i].update(input);
+            //REMOVE IF DEAD
+            if (this.objects[i].dead === true) {
+                this.objects.splice(i, 1);
+            }
+        }
     };
     this.draw = function (ctx) {
         loopFor(this.objects, 'draw', ctx);
@@ -14,4 +21,5 @@ function Collection(parent, id, attributes) {
     this.add = function (value) {
         this.objects.push(value)
     }
+
 }

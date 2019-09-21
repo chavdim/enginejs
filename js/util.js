@@ -17,16 +17,19 @@ function TimedEvent(time, countDownBy, parent, onZero) {
 }
 
 function CollisionHandler(name, objList1, objList2, parent, onCollision, collisionDetectionFunction) {
-    for (var i = objList1.length - 1; i >= 0; i--) {
-        var o1 = objList1[i];
-        for (var ii = objList2.length - 1; ii >= 0; ii--) {
-            var o2 = objList2[ii];
-            if (collisionDetectionFunction(o1.rect, o2.rect)) {
-                parent[onCollision](o1, o2);
-                break;
+    this.update = function () {
+        for (var i = objList1().length - 1; i >= 0; i--) {
+            var o1 = objList1()[i];
+            for (var ii = objList2().length - 1; ii >= 0; ii--) {
+                var o2 = objList2()[ii];
+                if (collisionDetectionFunction(o1.rect, o2.rect)) {
+                    onCollision(o1, o2);
+                    break;
+                }
             }
         }
     }
+
 }
 
 function EventTrigger(var1, type, var2, onEvent) {

@@ -3,6 +3,7 @@ function Bullet(speed, x, y) {
     this.y = y;
     this.size = 5;
     this.imgSrc = '';
+    this.dead = false;
     // TODO decide where to declare
     this.acceleration = new Acceleration(this, speed, speed);
     this.acceleration.applyYAccleration(-speed);
@@ -10,13 +11,12 @@ function Bullet(speed, x, y) {
 
     //RECT
     this.rect = new Rect(x, y, this.size, this.size);
-    this.dead = 0;
     this.speed = speed;
 
 
     this.update = function (input) {
         // TODO apply here?
-        // this.acceleration.applyYAccleration(this.speed/100);
+        // this.acceleration.applyYAcleration(this.speed/100);
         this.acceleration.moveParent();
         this.rect.setTo(this.x, this.y);
     };

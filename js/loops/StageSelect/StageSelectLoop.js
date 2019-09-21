@@ -34,7 +34,7 @@ function StageSelectLoop() {
             for (let i = this.dynamicObjects[key].length - 1; i >= 0; i--) {
                 this.dynamicObjects[key][i].update(input);
                 //REMOVE IF DEAD
-                if (this.dynamicObjects[key][i].dead === 1) {
+                if (this.dynamicObjects[key][i].dead === true) {
                     this.dynamicObjects[key].splice(i, 1);
                 }
             }

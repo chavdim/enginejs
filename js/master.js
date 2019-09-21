@@ -15,7 +15,7 @@ master = {
         master.isGameMode = 0;
         master.clearTimeOutsOnce = 1;
         master.param = param;
-        master.updateDelay = 22;
+        master.updateDelay = 15;
         inputHandler.processed = 1;
         mainTimeout = 0;
         master.clearTimeouts();

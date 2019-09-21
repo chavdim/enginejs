@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b070a918-6b29-4e34-a0e2-3f7e6251b7ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util/events/DeathEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util/random/RandomUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/misc/audio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/misc/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/inputHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/misc/inputHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/visualObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/misc/visualObjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/objects/common/Bullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/common/Bullet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/collections/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/collections/Collection.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,91 +37,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/creators/creators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="4" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="460">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
+        <entry file="file://$PROJECT_DIR$/js/util/collections/Collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js">
+        <entry file="file://$PROJECT_DIR$/js/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="273">
+              <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/master.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/util/objects/DynamicObject.js">
+        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/objects/enemy/EnemyShip.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/util/random/RandomUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/mainMenu.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util/input/InputMapping.js">
+        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util/dynamics/Acceleration.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="600">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="48" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -150,9 +160,6 @@
         <option value="$PROJECT_DIR$/js/objects/EnemyShip.js" />
         <option value="$PROJECT_DIR$/js/objects/terrain/SideScrollTerrain.js" />
         <option value="$PROJECT_DIR$/js/util/dynamics/Acceleration" />
-        <option value="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" />
-        <option value="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" />
-        <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/js/loops/LoopCollection.js" />
         <option value="$PROJECT_DIR$/js/master.js" />
         <option value="$PROJECT_DIR$/js/objects/PlayerShip.js" />
@@ -160,15 +167,26 @@
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/js/objects/player/BulletCollection.js" />
         <option value="$PROJECT_DIR$/js/util/collections/ObjectCollection.js" />
-        <option value="$PROJECT_DIR$/js/util/collections/Collection.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/util/inputHandler.js" />
-        <option value="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" />
-        <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
-        <option value="$PROJECT_DIR$/js/objects/player/PlayerShip.js" />
         <option value="$PROJECT_DIR$/js/util/input/InputMapping.js" />
         <option value="$PROJECT_DIR$/js/util/dynamics/Acceleration.js" />
         <option value="$PROJECT_DIR$/js/util/objects/DynamicObject.js" />
+        <option value="$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js" />
+        <option value="$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js" />
+        <option value="$PROJECT_DIR$/js/util/generators/index.html" />
+        <option value="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" />
+        <option value="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" />
+        <option value="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" />
+        <option value="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" />
+        <option value="$PROJECT_DIR$/js/util/events/DeathEvent.js" />
+        <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
+        <option value="$PROJECT_DIR$/js/util.js" />
+        <option value="$PROJECT_DIR$/js/objects/player/PlayerShip.js" />
+        <option value="$PROJECT_DIR$/js/util/collections/Collection.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/util/random/RandomUtils.js" />
+        <option value="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" />
+        <option value="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" />
       </list>
     </option>
   </component>
@@ -179,9 +197,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="400" />
+    <option name="x" value="328" />
     <option name="y" value="9" />
-    <option name="width" value="1513" />
+    <option name="width" value="1585" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -198,6 +216,11 @@
             <path>
               <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
               <item name="revamped" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
+              <item name="revamped" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
@@ -254,6 +277,13 @@
               <item name="revamped" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="enemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
+              <item name="revamped" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,21 +297,28 @@
               <item name="revamped" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamics" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
               <item name="revamped" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
               <item name="revamped" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
+              <item name="revamped" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,11 +349,11 @@
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\loops\StageSelect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\generators" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\misc" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\common" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\enemy" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\player" />
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\loops\StageSelect" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,17 +380,18 @@
       <updated>1566145575997</updated>
       <workItem from="1566145577166" duration="13624000" />
       <workItem from="1567028458601" duration="699000" />
-      <workItem from="1568595457550" duration="39267000" />
+      <workItem from="1568595457550" duration="50916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53590000" />
+    <option name="totallyTimeSpent" value="65239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="400" y="9" width="1513" height="1040" extended-state="0" />
+    <frame x="328" y="9" width="1585" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.16067797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.15319975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5017026" side_tool="true" weight="0.14757161" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/util/misc/visualObjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -414,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/enemy/EnemyShip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="32" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -428,51 +452,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="270" column="9" selection-start-line="270" selection-start-column="9" selection-end-line="270" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/objects/player/BulletCollection.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/collections/Collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/objects/terrain/SideScrollTerrain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -497,20 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/util/input/InputMapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -525,31 +497,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
+    <entry file="file://$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/util/objects/DynamicObject.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/generators/RandomGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/generators/TimedGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/events/DeathEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/collections/Collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mainMenu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util/random/RandomUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/objects/enemy/EnemyShip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>

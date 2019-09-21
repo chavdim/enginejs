@@ -5,11 +5,12 @@ function PlayerShip(x, y, size, speed, imgSrc) {
     this.imgSrc = imgSrc;
     //RECT
     this.rect = new Rect(x, y, this.size, this.size);
-    this.dead = 0;
+    this.dead = false;
     this.speed = speed;
     // Custom
     this.acceleration = new Acceleration(this, 8, 8); // TODO how to define object specific objects (util objects). Creator for the objects?
     this.collections = [new Collection(parent = this, id = "bullets", attributes = {})];
+    this.cooldown = new ActionWithCooldown(6, this, 'doShoot');
     // this.inputMap =  ???
 
 
@@ -21,6 +22,7 @@ function PlayerShip(x, y, size, speed, imgSrc) {
         this.processInputs(input);
         loopFor(this.collections, 'update', input);
 
+        this.cooldown.update();
         this.acceleration.moveParent();
         this.rect.setTo(this.x, this.y);
     };
@@ -51,6 +53,7 @@ function PlayerShip(x, y, size, speed, imgSrc) {
         if (keyStates[' '] === 'pressed') {
             this.shoot()
         }
+
         // if (keyStates['w'] === 'pressed') {
         //     this.moveUp()
         // }
@@ -76,9 +79,10 @@ function PlayerShip(x, y, size, speed, imgSrc) {
     this.moveDown = function () {
         this.acceleration.applyYAccleration(this.speed)
     };
-    this.shoot = function () {
-        console.log(123);
-
+    this.doShoot = function () {
         this.collections[0].add(new Bullet(18, this.x, this.y))
+    };
+    this.shoot = function () {
+        this.cooldown.doAciton()
     }
 }
