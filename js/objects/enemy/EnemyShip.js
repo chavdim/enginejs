@@ -8,7 +8,7 @@ function EnemyShip(xgen, y, size, speed, imgSrc) {
     this.dead = false;
     this.speed = speed;
 
-    // TODO util/movements/ContinuousMovement, RepetitiveMovement, ConditionalMovement ect?
+    // TODO internal/movements/ContinuousMovement, RepetitiveMovement, ConditionalMovement ect?
     this.acceleration = new Acceleration(this, speed, speed);
     this.acceleration.applyYAccleration(speed);
 

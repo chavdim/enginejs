@@ -2,8 +2,8 @@ function StageLoop() {
     //OBJECTS
     this.creator = new StageCreator();
 
-    this.currentVisualObjects = getStageBG();
-    this.currentMenuObjects = getStageMenuObjects();
+    this.currentVisualObjects = [];
+    this.currentMenuObjects = [];
     this.gameAttributes = {}; //TODO
     this.dynamicObjects = {};
     this.generators = [];
@@ -25,7 +25,6 @@ function StageLoop() {
     this.loadBaseData = function () {
         this.generators = this.creator.getGenerators();
         this.collisionHandlers = this.creator.getCollisionHandlers();
-
         this.currentVisualObjects = this.creator.getVisualObjects();
         // this.gameAttributes = attributes;
         this.dynamicObjects = this.creator.getDynamicObjects();

@@ -8,7 +8,7 @@ function PlayerShip(x, y, size, speed, imgSrc, inputMap) {
     this.dead = false;
     this.speed = speed;
     // Custom
-    this.acceleration = new Acceleration(this, 8, 8); // TODO how to define object specific objects (util objects). Creator for the objects?
+    this.acceleration = new Acceleration(this, 8, 8); // TODO how to define object specific objects (internal objects). Creator for the objects?
     this.collections = [new Collection(parent = this, id = "bullets", attributes = {})];
     this.cooldown = new ActionWithCooldown(6, this, 'doShoot');
     this.inputMap =  inputMap;
@@ -53,6 +53,7 @@ function PlayerShip(x, y, size, speed, imgSrc, inputMap) {
     this.moveDown = function () {
         this.acceleration.applyYAccleration(this.speed)
     };
+    //
     this.doShoot = function () {
         this.collections[0].add(new Bullet(18, this.x, this.y))
     };

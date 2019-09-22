@@ -5,11 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b070a918-6b29-4e34-a0e2-3f7e6251b7ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/internal/generators/ScriptedGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/creators/creators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/objects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/objects/player/PlayerShip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/input/InputMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/input/InputMapping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/util/misc/inputHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util/misc/inputHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/misc/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/actions/ActionWithCooldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/collections/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/collections/Collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/dynamics/Acceleration.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/dynamics/Acceleration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/events/DeathEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/events/DeathEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/generators/RandomGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/creators/creator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/generators/TimedGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/input/InputMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/input/InputMapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/misc/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/misc/audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/misc/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/misc/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/misc/inputHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/misc/inputHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/misc/visualObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/misc/visualObjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/objects/DynamicObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/objects/DynamicObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util/random/RandomUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/internal/random/RandomUtils.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,67 +45,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
+        <entry file="file://$PROJECT_DIR$/js/internal/misc/audio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util/input/InputMapping.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util/misc/inputHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="260">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
+        <entry file="file://$PROJECT_DIR$/js/creators/creator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="220">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/util/dynamics/Acceleration.js">
+        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="40">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
+        <entry file="file://$PROJECT_DIR$/js/internal/misc/images.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="40">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/js/internal/misc/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1233">
+              <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="240">
+              <caret line="12" column="77" lean-forward="true" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -104,19 +105,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
+        <entry file="file://$PROJECT_DIR$/js/master.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="200">
+              <caret line="10" column="100" lean-forward="true" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
+        <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="480">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-239">
+              <caret line="7636" column="23" selection-start-line="7636" selection-start-column="23" selection-end-line="7636" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -135,6 +154,7 @@
       <find>activate</find>
       <find>button</find>
       <find>22</find>
+      <find>getAudioSrcList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -171,7 +191,6 @@
         <option value="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" />
         <option value="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" />
         <option value="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" />
-        <option value="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" />
         <option value="$PROJECT_DIR$/js/util/events/DeathEvent.js" />
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/js/util/collections/Collection.js" />
@@ -180,11 +199,13 @@
         <option value="$PROJECT_DIR$/js/master.js" />
         <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/util/misc/inputHandler.js" />
         <option value="$PROJECT_DIR$/js/loops/Stage/StageCreators.js" />
         <option value="$PROJECT_DIR$/js/util/input/InputMapping.js" />
         <option value="$PROJECT_DIR$/js/objects/player/PlayerShip.js" />
+        <option value="$PROJECT_DIR$/js/loops/Stage/StageLoop.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/creators/creator.js" />
       </list>
     </option>
   </component>
@@ -231,114 +252,6 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="creators" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-              <item name="Stage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-              <item name="StageSelect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="enemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="revamped" type="b2602c69:ProjectViewProjectNode" />
-              <item name="revamped" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="random" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -368,8 +281,8 @@
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\loops\StageSelect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\generators" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\misc" />
+      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\generators" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\common" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\enemy" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\player" />
@@ -399,19 +312,19 @@
       <updated>1566145575997</updated>
       <workItem from="1566145577166" duration="13624000" />
       <workItem from="1567028458601" duration="699000" />
-      <workItem from="1568595457550" duration="54608000" />
+      <workItem from="1568595457550" duration="58967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68931000" />
+    <option name="totallyTimeSpent" value="73290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="328" y="9" width="1585" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.15319975" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5017026" side_tool="true" weight="0.15319975" />
       <window_info id="Favorites" order="2" sideWeight="0.5017026" side_tool="true" weight="0.14757161" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
@@ -436,38 +349,10 @@
     <entry file="file://$PROJECT_DIR$/js/._audio.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/misc/audio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/misc/images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/misc/visualObjects.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/misc/visualObjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="227" column="38" lean-forward="true" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="7542" column="16" selection-start-line="7542" selection-start-column="16" selection-end-line="7542" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -481,45 +366,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/creators/creators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/actions/ActionWithCooldown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/objects/DynamicObject.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/objects/DynamicObject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/generators/ScriptedGenerator.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/generators/RandomGenerator.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/generators/RandomGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
@@ -533,38 +397,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/generators/TimedGenerator.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/generators/TimedGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/events/DeathEvent.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/events/DeathEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/collections/Collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/mainMenu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/random/RandomUtils.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/random/RandomUtils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
@@ -575,13 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -602,23 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -626,38 +452,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/misc/inputHandler.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/misc/inputHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/dynamics/Acceleration.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/dynamics/Acceleration.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/util/input/InputMapping.js">
+    <entry file="file://$PROJECT_DIR$/js/internal/input/InputMapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/internal/collections/Collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="7636" column="23" selection-start-line="7636" selection-start-column="23" selection-end-line="7636" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/internal/misc/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/creators/creators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/internal/misc/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="100" lean-forward="true" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="77" lean-forward="true" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/internal/misc/audio.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/creators/creator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

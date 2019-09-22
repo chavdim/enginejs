@@ -2,8 +2,8 @@ function StageSelectLoop() {
     //OBJECTS
     this.creator = new StageSelectCreator();
 
-    this.currentVisualObjects = getStageBG();
-    this.currentMenuObjects = getStageMenuObjects();
+    this.currentVisualObjects = [];
+    this.currentMenuObjects = [];
     this.gameAttributes = {}; //TODO
     this.dynamicObjects = {};
     //TIMERS
