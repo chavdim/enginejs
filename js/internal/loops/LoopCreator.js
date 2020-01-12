@@ -1,8 +1,6 @@
 
 function StageSelectCreator () {
 	this.menuObj=[
-		new Button(1,"start stage",125,154,150,60,function func () {
-			master.loopCollection.changeActiveLoop(1)} )
 	];
 
 	this.visualObj=[

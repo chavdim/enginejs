@@ -1,6 +1,6 @@
-function StageSelectLoop() {
+function Loop() {
     //OBJECTS
-    this.creator = new StageSelectCreator();
+    // this.creator = new StageSelectCreator();
 
     this.currentVisualObjects = [];
     this.currentMenuObjects = [];

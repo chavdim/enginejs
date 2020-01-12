@@ -1,8 +1,6 @@
 function LoopCollection() {
     this.activeLoop = 0;
     this.loops = [
-        new StageSelectLoop(),
-        new StageLoop()
     ];
     this.changeActiveLoop = function (newLoopIndex) {
         this.activeLoop = newLoopIndex;
