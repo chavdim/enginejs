@@ -5,14 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b070a918-6b29-4e34-a0e2-3f7e6251b7ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/internal/loops/Loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/internal/loops/LoopCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/internal/loops/LoopCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/revamped.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/revamped.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/libs/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/loops/LoopCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loops/LoopCollection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/libs/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/creators/creator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/actions/ActionWithCooldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/collections/Collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/dynamics/Acceleration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/events/DeathEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/generators/RandomGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/generators/ScriptedGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/generators/TimedGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/input/InputMapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/loops/Loop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/loops/LoopCollection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/loops/LoopCreator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/misc/audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/misc/images.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/misc/inputHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/misc/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/misc/visualObjects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/objects/DynamicObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/internal/random/RandomUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/creators/creator.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/creators/creator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/actions/ActionWithCooldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/actions/ActionWithCooldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/collections/Collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/collections/Collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/dynamics/Acceleration.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/dynamics/Acceleration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/DeathEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/generators/RandomGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/generators/RandomGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/generators/TimedGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/generators/TimedGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/input/InputMapping.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/input/InputMapping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/inputHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/inputHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/visualObjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/visualObjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/objects/DynamicObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/objects/DynamicObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/random/RandomUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/internal/random/RandomUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/libs/jquery.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/LoopCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/LoopCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectLoop.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectLoop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/master.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/common/Bullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/common/Bullet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/enemy/EnemyShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/enemy/EnemyShip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/player/PlayerShip.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/space-invaders/js/objects/player/PlayerShip.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +69,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/creators/creator.js">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/input/InputMapping.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="198">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/dynamics/Acceleration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/creators/creator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,46 +108,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/internal/collections/Collection.js">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/objects/StaticObject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/internal/loops/LoopCreator.js">
+        <entry file="file://$PROJECT_DIR$/src/internal/misc/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="486">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/LoopCollection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/internal/loops/Loop.js">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="155">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/internal/loops/LoopCollection.js">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/objects/terrain/Terrain.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
+        <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137232">
-              <caret line="7636" column="23" selection-start-line="7636" selection-start-column="23" selection-end-line="7636" selection-end-column="23" />
+            <state relative-caret-position="72">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -100,6 +176,16 @@
       <find>button</find>
       <find>22</find>
       <find>getAudioSrcList</find>
+      <find>util</find>
+      <find>events</find>
+      <find>master.loopCollection.changeActiveLo</find>
+      <find>loop</find>
+      <find>inp</find>
+      <find>dyna</find>
+      <find>StaticObject</find>
+      <find>ChangeValueEvent</find>
+      <find>co</find>
+      <find>jq</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,37 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/images.js" />
-        <option value="$PROJECT_DIR$/js/game.js" />
-        <option value="$PROJECT_DIR$/js/loops/Loop.js" />
-        <option value="$PROJECT_DIR$/js/loops/StageLoop.js" />
-        <option value="$PROJECT_DIR$/js/creators/creators.js" />
-        <option value="$PROJECT_DIR$/js/util/visualObjects.js" />
-        <option value="$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js" />
-        <option value="$PROJECT_DIR$/js/objects/EnemyShip.js" />
-        <option value="$PROJECT_DIR$/js/objects/terrain/SideScrollTerrain.js" />
-        <option value="$PROJECT_DIR$/js/util/dynamics/Acceleration" />
-        <option value="$PROJECT_DIR$/js/loops/LoopCollection.js" />
-        <option value="$PROJECT_DIR$/js/objects/PlayerShip.js" />
-        <option value="$PROJECT_DIR$/js/objects/player/Bullet.js" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/js/objects/player/BulletCollection.js" />
-        <option value="$PROJECT_DIR$/js/util/collections/ObjectCollection.js" />
-        <option value="$PROJECT_DIR$/js/util/inputHandler.js" />
-        <option value="$PROJECT_DIR$/js/util/dynamics/Acceleration.js" />
-        <option value="$PROJECT_DIR$/js/util/objects/DynamicObject.js" />
-        <option value="$PROJECT_DIR$/js/util/actions/ActionWithCooldown.js" />
-        <option value="$PROJECT_DIR$/js/util/generators/ScriptedGenerator.js" />
-        <option value="$PROJECT_DIR$/js/util/generators/index.html" />
-        <option value="$PROJECT_DIR$/js/util/generators/RandomGenerator.js" />
-        <option value="$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js" />
-        <option value="$PROJECT_DIR$/js/util/generators/TimedGenerator.js" />
-        <option value="$PROJECT_DIR$/js/util/events/DeathEvent.js" />
-        <option value="$PROJECT_DIR$/js/util.js" />
-        <option value="$PROJECT_DIR$/js/util/collections/Collection.js" />
-        <option value="$PROJECT_DIR$/js/util/random/RandomUtils.js" />
-        <option value="$PROJECT_DIR$/js/objects/enemy/EnemyShip.js" />
-        <option value="$PROJECT_DIR$/js/master.js" />
         <option value="$PROJECT_DIR$/js/objects/common/Bullet.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/util/misc/inputHandler.js" />
@@ -155,6 +210,44 @@
         <option value="$PROJECT_DIR$/js/internal/loops/StageSelectCreators.js" />
         <option value="$PROJECT_DIR$/js/internal/loops/StageSelectLoop.js" />
         <option value="$PROJECT_DIR$/js/internal/loops/Loop.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/objects/enemy/EnemyShip.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/objects/common/Bullet.js" />
+        <option value="$PROJECT_DIR$/src/internal/objects/DynamicObject.js" />
+        <option value="$PROJECT_DIR$/src/internal/misc/util.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/collision/DeathEvent.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectCreators.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/collision/ChangeValueEvent.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/input/InputMapping.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/objects/DynamicObject.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/master.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/visualObjects.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/actions/ActionWithCooldown.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageCreators.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageLoop.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/objects/player/PlayerShip.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/loops/Loop.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/loops/LoopCollection.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/objects/player/PlayerShip.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/objects/StaticObject" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/objects/terrain/Player.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/loops/Loop.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/misc/util.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/actions/ActionWithCooldown.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/objects/player/Player.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/events/collision/ChangeValueEvent.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/master.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/dynamics/Acceleration.js" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/dynamics/Acceleration.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/index.html" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/index.html" />
+        <option value="$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/util.js" />
+        <option value="$USER_HOME$/.jscsrc" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/objects/DynamicObject.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/loops/LoopCollection.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageLoop.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/objects/terrain/Terrain.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/internal/objects/StaticObject.js" />
+        <option value="$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageCreators.js" />
       </list>
     </option>
   </component>
@@ -190,59 +283,31 @@
             <path>
               <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="creators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="internal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="enginejs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-              <item name="Stage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loops" type="462c0819:PsiDirectoryNode" />
-              <item name="StageSelect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enginejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enginejs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,10 +321,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="/usr/local/lib/node_modules/jscs" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -268,16 +336,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/collision" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\misc" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\util\generators" />
       <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\common" />
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\enemy" />
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\objects\player" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js/internal/loops" />
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\loops\Stage" />
-      <recent name="C:\Users\chavdar\Desktop\hectic2dBasicFramework\revamped\js\loops\StageSelect" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/templates/js/platformer/js/objects/terrain" />
+      <recent name="$PROJECT_DIR$/templates/js/platformer" />
+      <recent name="$PROJECT_DIR$/templates/js/space-invaders/js/internal" />
+      <recent name="$PROJECT_DIR$/src/internal/events" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,267 +375,392 @@
       <workItem from="1566145577166" duration="13624000" />
       <workItem from="1567028458601" duration="699000" />
       <workItem from="1568595457550" duration="58967000" />
-      <workItem from="1578846451100" duration="252000" />
+      <workItem from="1578846451100" duration="25243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73542000" />
+    <option name="totallyTimeSpent" value="98533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.15310428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.23508137" />
       <window_info id="Structure" order="1" sideWeight="0.5017026" side_tool="true" weight="0.15319975" />
       <window_info id="Favorites" order="2" sideWeight="0.5017026" side_tool="true" weight="0.14757161" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32883817" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32987553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.20658343" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982974" visible="true" weight="0.28872815" />
+      <window_info id="Structure" order="1" sideWeight="0.5017026" side_tool="true" weight="0.15319975" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017026" side_tool="true" weight="0.14757161" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32883817" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32987553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32987553" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.20658343" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/._audio.js" />
-    <entry file="file://$PROJECT_DIR$/js/internal/misc/visualObjects.js">
+    <entry file="file://$PROJECT_DIR$/src/internal/events/DeathEvent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="227" column="38" lean-forward="true" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/player/BulletCollection.js" />
-    <entry file="file://$PROJECT_DIR$/js/objects/terrain/SideScrollTerrain.js" />
-    <entry file="file://$PROJECT_DIR$/js/internal/actions/ActionWithCooldown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/objects/DynamicObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/generators/ScriptedGenerator.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/generators/RandomGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/generators/TimedGenerator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/events/DeathEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="108">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/mainMenu.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/internal/events/collision/DeathEvent.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/random/RandomUtils.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/collision/DeathEvent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/enemy/EnemyShip.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectCreators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="288">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/common/Bullet.js">
+    <entry file="file://$PROJECT_DIR$/src/internal/input/InputMapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/misc/inputHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/dynamics/Acceleration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/input/InputMapping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/objects/player/PlayerShip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creators/creators.js" />
-    <entry file="file://$PROJECT_DIR$/js/game.js" />
-    <entry file="file://$PROJECT_DIR$/js/objects.js" />
-    <entry file="file://$PROJECT_DIR$/js/internal/misc/audio.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/input/InputMapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="13" column="12" selection-start-line="11" selection-start-column="15" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/misc/images.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/objects/DynamicObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="177">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/misc/util.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/events/collision/ChangeValueEvent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4914">
-          <caret line="273" column="9" selection-start-line="273" selection-start-column="9" selection-end-line="273" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/visualObjects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="461">
+          <caret line="232" column="9" lean-forward="true" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="100" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137232">
-          <caret line="7636" column="23" selection-start-line="7636" selection-start-column="23" selection-end-line="7636" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creators/creator.js">
+    <entry file="file://$PROJECT_DIR$/src/internal/actions/ActionWithCooldown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/collections/Collection.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/loops/StageSelect/StageSelectLoop.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/internal/loops/LoopCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/objects/enemy/EnemyShip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/actions/ActionWithCooldown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/loops/Loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/loops/LoopCollection.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/loops/LoopCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/loops/LoopCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/master.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/events/collision/DeathEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/objects/player/PlayerShip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/loops/Stage/StageCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/misc/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/loops/Loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/actions/ActionWithCooldown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/internal/objects/DynamicObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/events/collision/ChangeValueEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/internal/collections/Collection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectCreators.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/objects/player/Player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/StageSelect/StageSelectLoop.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/dynamics/Acceleration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        <state relative-caret-position="-130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/collections/Collection.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/LoopCollection.js">
+    <entry file="file://$PROJECT_DIR$/src/internal/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="288">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loops/Stage/StageCreators.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/master.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="440">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/loops/LoopCreator.js">
+    <entry file="file://$PROJECT_DIR$/src/internal/dynamics/Acceleration.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/space-invaders/js/internal/misc/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="270">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/loops/LoopCollection.js">
+    <entry file="file://$USER_HOME$/.jscsrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/internal/loops/Loop.js">
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/objects/DynamicObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="702">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/random/RandomUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/dynamics/Acceleration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/input/InputMapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/internal/misc/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/LoopCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/creators/creator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/objects/terrain/Terrain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/internal/objects/StaticObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/js/platformer/js/loops/Stage/StageCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
         </state>
       </provider>
     </entry>
