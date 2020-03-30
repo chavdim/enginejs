@@ -1,11 +1,13 @@
 class StaticObject {
-  constructor(x, y, size, imgSrc, inputMap) {
+  constructor(x, y, w, h, imgSrc, inputMap) {
     this.x = x;
     this.y = y;
-    this.size = size;
+    this.w = w;
+    this.h = h;
+
     this.imgSrc = imgSrc;
     //RECT
-    this.rect = new Rect(x, y, this.size, this.size);
+    this.rect = new Rect(x, y, this.w, this.h);
     this.dead = 0;
     // Custom
     this.inputMap = inputMap;

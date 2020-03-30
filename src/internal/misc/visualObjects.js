@@ -76,14 +76,14 @@ function ScrollingBG(imageSrcList, scrollDirection, scrollSpeed, windowWidth) {
   this.update = function() {
       //UPDATE ALL IMAGES
       for (let i = this.imageList.length - 1; i >= 0; i--) {
-        if (this.scrollDirection == 'left') {
+        if (this.scrollDirection === 'left') {
           this.imageList[i].x -= this.scrollSpeed;
           //Change Position when out of screen
           if (this.imageList[i].x < -this.windowWidth) {
             this.imageList[i].x = this.windowWidth;
           }
         }
-        if (this.scrollDirection == 'right') {
+        if (this.scrollDirection === 'right') {
           this.imageList[i].x += this.scrollSpeed;
           //Change Position when out of screen
           if (this.imageList[i].x > this.windowWidth) {
@@ -102,7 +102,9 @@ function ScrollingBG(imageSrcList, scrollDirection, scrollSpeed, windowWidth) {
 }
 
 //***********INCOMPLETE***************
-function MultilayerScrollingBG(imageSrcListList, scrollDirection, scrollSpeedList, windowWidth) {
+function MultilayerScrollingBG(imageSrcListList,
+                               scrollDirection,
+                               scrollSpeedList, windowWidth) {
   this.imageList = [];
   let xOffset = 0;
   for (let i = imageSrcList.length - 1; i >= 0; i--) {
@@ -190,7 +192,9 @@ function RectClearTransition(width, height) {
       if (this.rectSize > 0) {
         ctx.fillStyle = 'black';
         ctx.fillRect(0, 0, this.windowW, this.windowH);
-        ctx.clearRect((this.windowW / 2) - this.rectSize / 2, (this.windowH / 2) - this.rectSize / 2, this.rectSize, this.rectSize);
+        ctx.clearRect((this.windowW / 2) - this.rectSize / 2,
+            (this.windowH / 2) - this.rectSize / 2,
+            this.rectSize, this.rectSize);
         this.rectSize += this.growBy;
         if (this.rectSize > this.stopWhen + this.growBy) {
           this.rectSize = 0;
